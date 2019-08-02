@@ -1,0 +1,23 @@
+{
+	"injectionSelector": "L:text.html.markdown",
+	"patterns": [
+		{
+			"include": "#keywords"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "heading.unindented.listitem.markdown",
+					"match": "^- .*"
+				},
+				{
+					"name": "todo.any.listitem.markdown",
+					"match": "(?<=- )TO DO:"
+				}
+			]
+		}
+	},
+	"scopeName": "more-syntax.injection"
+}

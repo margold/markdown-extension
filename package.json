@@ -1,0 +1,19 @@
+{
+    "name": "markdown-extension",
+    "displayName": "markdown-extension",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.36.1"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "grammars": [{
+            "injectTo": ["text.html.markdown"],
+            "scopeName": "markdown-extension.injection",
+            "path": "./syntaxes/injection.json"
+        }]
+    }
+}
